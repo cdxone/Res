@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--多个效果的层叠-->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <color android:color="@android:color/black"/>
+    </item>
+
+    <!--
+    left:表示距离左边的距离。
+    bottom:表示距离底部的距离。
+    相当于是限定了这个的大小
+    -->
+    <item
+        android:left="60dp"
+        android:bottom="120dp"
+        android:drawable="@drawable/alivc_bg_splash">
+    </item>
+
+</layer-list>

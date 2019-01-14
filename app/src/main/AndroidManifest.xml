@@ -22,7 +22,12 @@
         <activity
             android:name=".activity.WindowFullScreenActivity"
             android:theme="@style/WindowFullScreenActivityTheme" />
-        <activity android:name=".activity.WindowContentOverlayActivity"></activity>
+        <activity
+            android:name=".activity.WindowContentOverlayActivity"
+            android:theme="@style/WindowContentOverlayTheme" />
+        <activity android:name=".activity.WindowBackgroundActivity"
+            android:theme="@style/WindowBackgroundTheme"
+            />
     </application>
 
 </manifest>
