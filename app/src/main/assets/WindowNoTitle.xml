@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<问题集>
+    <问题>
+        <标题>windowNoTitle是什么样的？</标题>
+        <答案>
+            1、windowNoTitle是没有标题栏。
+        </答案>
+    </问题>
+    <问题>
+        <标题>其实windowNoTitle是哪里的属性？</标题>
+        <答案>
+            1、是appcompat-v7中的属性，在V7项目中的res中。
+            2、在appcompat-v7\res\values\values.xml中定义的。
+        </答案>
+    </问题>
+    <问题>
+        <标题>windowActionBar 与 android:windowNoTitle的区别？</标题>
+        <答案>
+            1、windowActionBar是兼容库中的属性。
+            2、android:windowNoTitle是系统自带的属性。
+        </答案>
+    </问题>
+    <问题>
+        <标题>windowNoTitle的源头在哪？</标题>
+        <答案>
+            1、在appcompat-v7\res\values\values.xml中。
+            2、在这个节点下 declare-styleable name="AppCompatTheme",会发现定义了属性windowNoTitle这样的属性。
+        </答案>
+    </问题>
+    <问题>
+        <标题>如何Activity继承AppCompatActivity,那么如何页面不显示标题栏？</标题>
+        <答案>
+            1、让页面继承Theme.AppCompat属性或者子属性。
+            2、在主题中协商windowNoTitle 为true。因为AppCompatActivity是兼容包中的类，它只能识别windowNotitle属性。
+        </答案>
+    </问题>
+</问题集>
