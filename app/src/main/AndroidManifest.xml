@@ -16,6 +16,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".activity.ThemeActivity"></activity>
         <activity
             android:name=".activity.WindowNoTitleActivity"
             android:theme="@style/WindowNoTitleActivityTheme" />
@@ -25,8 +26,11 @@
         <activity
             android:name=".activity.WindowContentOverlayActivity"
             android:theme="@style/WindowContentOverlayTheme" />
-        <activity android:name=".activity.WindowBackgroundActivity"
-            android:theme="@style/WindowBackgroundTheme"
+        <activity
+            android:name=".activity.WindowBackgroundActivity"
+            android:theme="@style/WindowBackgroundTheme" />
+        <activity android:name=".activity.NoActionBarActivity"
+            android:theme="@style/NoActionBarTheme"
             />
     </application>
 
